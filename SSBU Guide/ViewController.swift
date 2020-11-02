@@ -31,8 +31,14 @@ class ViewController: UIViewController
         myIVK.image = UIImage(named: "Kirby")
         myIVF.image = UIImage(named: "Fox")
         myIVP.image = UIImage(named: "Pikachu")
+    
     }
 
 
+
+
 }
+
+
+
 

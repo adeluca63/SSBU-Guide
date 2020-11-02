@@ -15,6 +15,14 @@
 		7501DA8B254C4A180096F331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7501DA89254C4A180096F331 /* LaunchScreen.storyboard */; };
 		7501DA96254C4A190096F331 /* SSBU_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501DA95254C4A190096F331 /* SSBU_GuideTests.swift */; };
 		7501DAA1254C4A190096F331 /* SSBU_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501DAA0254C4A190096F331 /* SSBU_GuideUITests.swift */; };
+		7501DAAF255046080096F331 /* VCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501DAAE255046080096F331 /* VCM.swift */; };
+		7501DAB1255046310096F331 /* VCDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501DAB0255046310096F331 /* VCDK.swift */; };
+		7501DAB32550464E0096F331 /* VCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501DAB22550464E0096F331 /* VCS.swift */; };
+		7501DAB52550467C0096F331 /* VCY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501DAB42550467C0096F331 /* VCY.swift */; };
+		7501DAB7255046900096F331 /* VCK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501DAB6255046900096F331 /* VCK.swift */; };
+		7501DAB9255046A10096F331 /* VCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501DAB8255046A10096F331 /* VCP.swift */; };
+		7501DABD255046DD0096F331 /* VCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501DABC255046DD0096F331 /* VCL.swift */; };
+		7501DABF255048550096F331 /* VCF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501DABE255048550096F331 /* VCF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		7501DA9C254C4A190096F331 /* SSBU GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSBU GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7501DAA0254C4A190096F331 /* SSBU_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSBU_GuideUITests.swift; sourceTree = "<group>"; };
 		7501DAA2254C4A190096F331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7501DAAE255046080096F331 /* VCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCM.swift; sourceTree = "<group>"; };
+		7501DAB0255046310096F331 /* VCDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCDK.swift; sourceTree = "<group>"; };
+		7501DAB22550464E0096F331 /* VCS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCS.swift; sourceTree = "<group>"; };
+		7501DAB42550467C0096F331 /* VCY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCY.swift; sourceTree = "<group>"; };
+		7501DAB6255046900096F331 /* VCK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCK.swift; sourceTree = "<group>"; };
+		7501DAB8255046A10096F331 /* VCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCP.swift; sourceTree = "<group>"; };
+		7501DABC255046DD0096F331 /* VCL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCL.swift; sourceTree = "<group>"; };
+		7501DABE255048550096F331 /* VCF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,14 @@
 				7501DA80254C4A150096F331 /* SceneDelegate.swift */,
 				7501DA82254C4A150096F331 /* ViewController.swift */,
 				7501DA84254C4A150096F331 /* Main.storyboard */,
+				7501DAAE255046080096F331 /* VCM.swift */,
+				7501DAB0255046310096F331 /* VCDK.swift */,
+				7501DABC255046DD0096F331 /* VCL.swift */,
+				7501DAB22550464E0096F331 /* VCS.swift */,
+				7501DAB42550467C0096F331 /* VCY.swift */,
+				7501DAB6255046900096F331 /* VCK.swift */,
+				7501DABE255048550096F331 /* VCF.swift */,
+				7501DAB8255046A10096F331 /* VCP.swift */,
 				7501DA87254C4A180096F331 /* Assets.xcassets */,
 				7501DA89254C4A180096F331 /* LaunchScreen.storyboard */,
 				7501DA8C254C4A180096F331 /* Info.plist */,
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7501DAB9255046A10096F331 /* VCP.swift in Sources */,
+				7501DAB7255046900096F331 /* VCK.swift in Sources */,
+				7501DAB32550464E0096F331 /* VCS.swift in Sources */,
 				7501DA83254C4A150096F331 /* ViewController.swift in Sources */,
+				7501DAB1255046310096F331 /* VCDK.swift in Sources */,
 				7501DA7F254C4A150096F331 /* AppDelegate.swift in Sources */,
+				7501DAAF255046080096F331 /* VCM.swift in Sources */,
+				7501DABD255046DD0096F331 /* VCL.swift in Sources */,
+				7501DABF255048550096F331 /* VCF.swift in Sources */,
+				7501DAB52550467C0096F331 /* VCY.swift in Sources */,
 				7501DA81254C4A150096F331 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
